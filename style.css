@@ -39,6 +39,7 @@ body{
 .container-navbar{
     max-width: 931px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -82,4 +83,29 @@ height: 100%;
     background: #ffffff;
     height: 92px;
     width: 100%;
+}
+.navbar-second .container-navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.navbar-second .container-navbar ul li{
+    list-style: none;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 100%;
+}
+.navbar-second .container-navbar ul li a{
+    height: 100%;
+    text-decoration: none;
+    color: #464646;
+}
+.navbar-second .container-navbar ul li:first-child{
+    color: #fff;
+    background-color: #919191;
 }
